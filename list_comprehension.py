@@ -17,6 +17,7 @@ students = [100, 90, 80, 70, 60, 50, 40, 30, 20, 10]
 #passed = list(filter(lambda x: x >= 70, students))
 
 passed = [x for x in students if x >= 70]
-passed_1 = [x if x >= 70 else "failed" for x in students]
+passed_1 = [x if x >= 70 else "failed" for x in students] #after the condition, you can use an if/else statement, but the return value is after the else statement
 
 print(passed)
+print(passed_1)
